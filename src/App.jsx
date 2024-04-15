@@ -14,10 +14,13 @@ function App() {
     <>
    
   <div id="container">
-      <h1>Hello React Router!</h1>
-      <Link to= '/red'>red</Link>
-      <Link to= '/blue'>blue</Link>
-      <Link to= '/'>home</Link>
+      <h1>Hello React Router!</h1>   <ul class = "navigation">
+           
+
+      <li><Link to= '/red'>red</Link></li>
+      <li><Link to= '/blue'>blue</Link></li>
+      <li><Link to= '/'>home</Link></li>
+      </ul>
       <div id="navbar">{}</div>
       <div id="main-section">
   
